@@ -15,8 +15,10 @@ const NavBar = () => {
                         </label>
                         <ul tabIndex="0"
                             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <li><a>Single</a></li>
                             <li tabIndex="0">
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <a className="justify-end">
                                     Looking
                                     <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24"
@@ -25,21 +27,26 @@ const NavBar = () => {
                                     </svg>
                                 </a>
                                 <ul className="p-2">
+                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                     <li><a>Submenu 1</a></li>
+                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                     <li><a>Submenu 2</a></li>
                                 </ul>
                             </li>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <button className="text-blue-500 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">1980.social</button>
+                    <button className="text-blue-500 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">button</button>
 
 
                 </div>
                 <div className="bg-gray-100 navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0 text-pink-500 font-bold">
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <li className="text-blue-500"><a>Men</a></li>
                         <li tabIndex="0">
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <a>
                                 Menu
                                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -48,15 +55,18 @@ const NavBar = () => {
                                 </svg>
                             </a>
                             <ul className="p-2">
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <li className="text-blue-500"><a>Single</a></li>
+                                {/* eslint-disable-next-line */}
                                 <li><a>Married</a></li>
                             </ul>
                         </li>
+                        {/* eslint-disable-next-line */}
                         <li><a>Woman</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="text-pink-500 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">1980.social</button>
+                    <button className="text-pink-500 btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">button</button>
 
                 </div>
             </div>
